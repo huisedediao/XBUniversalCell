@@ -1,2 +1,2 @@
 # XBUniversalCell
-常用cell合集
+一些常用的tableViewCell

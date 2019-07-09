@@ -1,0 +1,24 @@
+PODS:
+  - Masonry (1.1.0)
+  - XBButton (0.0.3):
+    - Masonry
+  - XBTimer (0.0.4)
+
+DEPENDENCIES:
+  - XBButton
+  - XBTimer
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - XBButton
+    - XBTimer
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  XBButton: 570033cb5cd142499e5fa14718d25c5541f9b120
+  XBTimer: b16695233e167faa607d1bd4ba7b358e641f317b
+
+PODFILE CHECKSUM: 374961ee1c2f55bafee97e93e8192eda9ecfbb7a
+
+COCOAPODS: 1.6.0.beta.2
