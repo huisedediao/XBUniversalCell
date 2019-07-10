@@ -221,7 +221,7 @@
 		F11D009821E31F800012D919 /* XBUniversalCell */ = {
 			isa = PBXGroup;
 			children = (
-				F144F01922D4A826000B93FA /* UniversalCell */,
+				F144F01922D4A826000B93FA /* XBUniversalCell */,
 				F11D009921E31F800012D919 /* AppDelegate.h */,
 				F11D009A21E31F800012D919 /* AppDelegate.m */,
 				F11D009C21E31F800012D919 /* ViewController.h */,
@@ -253,7 +253,7 @@
 			path = XBUniversalCellUITests;
 			sourceTree = "<group>";
 		};
-		F144F01922D4A826000B93FA /* UniversalCell */ = {
+		F144F01922D4A826000B93FA /* XBUniversalCell */ = {
 			isa = PBXGroup;
 			children = (
 				F144F01A22D4A826000B93FA /* XBUniversalCell_title_subTitle.h */,
@@ -286,8 +286,8 @@
 				F144F04122D4A826000B93FA /* UniversalCell_resource */,
 				F144F05022D4A826000B93FA /* XBUniversalCell_tf_switch.h */,
 			);
-			name = UniversalCell;
-			path = ../../UniversalCell;
+			name = XBUniversalCell;
+			path = ../../XBUniversalCell;
 			sourceTree = "<group>";
 		};
 		F144F03022D4A826000B93FA /* View */ = {
