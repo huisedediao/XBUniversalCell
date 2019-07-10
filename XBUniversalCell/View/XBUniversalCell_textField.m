@@ -9,6 +9,7 @@
 #import "XBUniversalCell_textField.h"
 #import "XBUniversalCell_header.h"
 #import "Masonry.h"
+#import "XBButton.h"
 
 @implementation XBUniversalCell_textField
 

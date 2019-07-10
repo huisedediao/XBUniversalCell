@@ -21,6 +21,7 @@
 #import "XBUniversalCell_icon_title_subTitle_rightIcon.h"
 #import "XBUniversalCell_btn_tf.h"
 #import "XBUniversalCell_title_tf_btn.h"
+#import "XBButton.h"
 
 @interface ViewController () <UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) UITableView *tbv_content;
