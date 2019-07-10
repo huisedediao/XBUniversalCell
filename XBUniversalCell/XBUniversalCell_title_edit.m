@@ -9,6 +9,7 @@
 #import "XBUniversalCell_title_edit.h"
 #import "Masonry.h"
 #import "XBUniversalCell_header.h"
+#import "XBButton.h"
 
 @interface XBUniversalCell_title_edit ()<UITextFieldDelegate>
 

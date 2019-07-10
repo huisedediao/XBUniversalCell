@@ -7,13 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "XBButton.h"
 
+@class XBButton;
 
 @interface XBUniversalCell_textField : UITextField
 
 @property (nonatomic,strong) XBButton *btn_rightView;
 
-@property (nonatomic,copy) XBActionBlock bl_rightViewClick;
+@property (nonatomic,copy) void(^bl_rightViewClick)(XBButton *btn);
 
 @end
