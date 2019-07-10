@@ -18,8 +18,6 @@
 #import "XBUniversalCell_Header_key.h"
 #import "XBUniversalCell_Header_enum.h"
 #import "XBUniversalCell_header_font.h"
-#import "Masonry.h"
-#import "XBButton.h"
 
 
 #define WEAK_SELF __typeof(self) __weak weakSelf = self;

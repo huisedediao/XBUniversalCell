@@ -7,8 +7,8 @@
 //
 
 #import "XBUniversalCell_tf_switch.h"
-#import "XBUniversalCell_header.h"
 #import "Masonry.h"
+#import "XBButton.h"
 
 #define keyPathForOn @"_selected"
 

@@ -8,6 +8,7 @@
 
 #import "XBUniversalCell_title_select.h"
 #import "Masonry.h"
+#import "XBButton.h"
 
 @implementation XBUniversalCell_title_select
 

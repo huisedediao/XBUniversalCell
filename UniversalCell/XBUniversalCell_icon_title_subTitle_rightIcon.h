@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "XBButton.h"
 
 NS_ASSUME_NONNULL_BEGIN
+
+@class XBButton;
 
 @interface XBUniversalCell_icon_title_subTitle_rightIcon : UITableViewCell
 @property (nonatomic,strong) XBButton *btn_iconTitle;

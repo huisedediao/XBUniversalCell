@@ -7,6 +7,9 @@
 //
 
 #import "XBUniversalCell_btn_tf.h"
+#import "XBUniversalCell_header.h"
+#import "Masonry.h"
+#import "XBButton.h"
 
 @interface XBUniversalCell_btn_tf ()<UITextFieldDelegate>
 

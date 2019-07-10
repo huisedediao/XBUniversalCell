@@ -8,6 +8,8 @@
 
 #import "XBUniversalCell_title_tf_btn.h"
 #import "XBTimer.h"
+#import "Masonry.h"
+#import "XBButton.h"
 
 #define kBtnWidth (80)
 #define kMaxTimerCount (60)

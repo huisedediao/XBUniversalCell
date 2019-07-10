@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "XBUniversalCell_header.h"
 
+@class XBButton;
 NS_ASSUME_NONNULL_BEGIN
 
 @interface XBUniversalCell_title_tf_btn : UITableViewCell
