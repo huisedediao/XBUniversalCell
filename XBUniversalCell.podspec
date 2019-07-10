@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "XBUniversalCell"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "常用cell合集"
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "XBUniversalCell", "XBUniversalCell/**/*.{h,m}"
+  spec.source_files  = "XBUniversalCell","XBUniversalCell/View/*.{h,m}","XBUniversalCell/UniversalCell_header/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -106,7 +106,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
+  spec.resources = "XBUniversalCell/UniversalCell_resource/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
