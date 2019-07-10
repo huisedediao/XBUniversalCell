@@ -8,6 +8,8 @@
 
 #import "XBUniversalCell_iconTopTitle_subTitle_rightIcon.h"
 #import "XBUniversalCell_header.h"
+#import "Masonry.h"
+#import "XBButton.h"
 
 @implementation XBUniversalCell_iconTopTitle_subTitle_rightIcon
 

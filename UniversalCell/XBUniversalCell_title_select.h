@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "XBButton.h"
 #import "xbuniversalcell_header.h"
+
+@class XBButton;
 
 @interface XBUniversalCell_title_select : UITableViewCell
 @property (nonatomic,copy) XBUniversalCellSelectStatusDidChangeBlock bl_selectStatusChange;

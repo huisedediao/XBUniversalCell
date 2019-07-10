@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "XBUniversalCell_header.h"
 
-@class XBUniversalCell_tf_switch;
+@class XBButton;
 
 @interface XBUniversalCell_tf_switch : UITableViewCell
 

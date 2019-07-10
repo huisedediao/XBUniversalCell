@@ -6,7 +6,7 @@
 //  Copyright © 2017年 DreamCatcher. All rights reserved.
 //
 
-#import "XBUniversalCell_title_subTitle_rightIcon.h"
+#import <UIKit/UIKit.h>
 
 @interface XBUniversalCell_title_subTitle : UITableViewCell
 @property (nonatomic,strong) UILabel *lb_title;

@@ -8,6 +8,7 @@
 
 #import "XBUniversalCell_title_tf.h"
 #import "XBUniversalCell_header.h"
+#import "Masonry.h"
 
 @interface XBUniversalCell_title_tf ()<UITextFieldDelegate>
 

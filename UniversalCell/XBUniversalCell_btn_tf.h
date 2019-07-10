@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "XBUniversalCell_header.h"
 
 NS_ASSUME_NONNULL_BEGIN
+
+@class XBButton;
 
 @interface XBUniversalCell_btn_tf : UITableViewCell
 @property (nonatomic,strong) XBButton *btn_title;
