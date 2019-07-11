@@ -33,7 +33,7 @@
         }];
         btn.enum_contentType = XBBtnTypeImageLeft;
         btn.f_spaceOfImageAndTitle = 10;
-        btn.size_image = CGSizeMake(GWidthFactorFun(30), GWidthFactorFun(30));
+        btn.size_image = CGSizeMake(XBWidthFactorFun(30), XBWidthFactorFun(30));
         btn.font_title = XBUniversalCell_font_iconTitleText;
         btn.color_titleNormal = XBUniversalCell_color_dark_text;
         btn.userInteractionEnabled = NO;

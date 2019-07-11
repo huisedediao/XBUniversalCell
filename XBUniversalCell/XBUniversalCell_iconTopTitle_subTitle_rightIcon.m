@@ -28,11 +28,11 @@
         XBButton *btn = [XBButton new];
         [self.contentView addSubview:btn];
         [btn mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.width.mas_equalTo(GWidthFactorFun(100));
+            make.width.mas_equalTo(XBWidthFactorFun(100));
             make.centerY.equalTo(self.contentView);
             make.left.equalTo(self.contentView).offset(0);
         }];
-        btn.size_image = CGSizeMake(GWidthFactorFun(30), GWidthFactorFun(30));
+        btn.size_image = CGSizeMake(XBWidthFactorFun(30), XBWidthFactorFun(30));
         btn.enum_contentType = XBBtnTypeImageTop;
         btn.font_title = XBUniversalCell_font_iconTitleText;
         btn.color_titleNormal = XBUniversalCell_color_dark_text;

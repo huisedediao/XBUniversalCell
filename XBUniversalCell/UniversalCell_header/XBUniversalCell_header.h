@@ -31,11 +31,6 @@
 
 
 
-//屏幕宽高
-#define ScreenWidth [UIScreen mainScreen].bounds.size.width
-#define ScreenHeight [UIScreen mainScreen].bounds.size.height
-
-
 //根据传入的文字、宽度和字体计算出合适的size (CGSize)
 #define getAdjustSizeWith_text_width_font(text,width,font) ({[text boundingRectWithSize:CGSizeMake(width, CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName :font} context:NULL].size;})
 
@@ -62,44 +57,44 @@ label.frame.size.width;\
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
 
-#define kConsultHeight 568.0
-#define kConsultWidth 320.0
+#define XBConsultHeight 568.0
+#define XBConsultWidth 320.0
 
-#define ScreenCondition(x) ((kScreenHeight == x) || (kScreenWidth == x))
+#define XBScreenCondition(x) ((kScreenHeight == x) || (kScreenWidth == x))
 
-#define isIpadScreen (ScreenCondition(480.0) ? YES : NO)
-#define isIphone5Screen (ScreenCondition(568.0) ? YES : NO)
-#define isIphone6Screen (ScreenCondition(667.0) ? YES : NO)
-#define isIphone6PScreen (ScreenCondition(736.0) ? YES : NO)
-#define isIphoneXScreen (ScreenCondition(812.0) ? YES : NO)
-#define isIphoneXScreen (ScreenCondition(812.0) ? YES : NO)
-#define isIphoneXROrXSMAXScreen (ScreenCondition(896.0) ? YES : NO)
+#define isIpadScreen (XBScreenCondition(480.0) ? YES : NO)
+#define isIphone5Screen (XBScreenCondition(568.0) ? YES : NO)
+#define isIphone6Screen (XBScreenCondition(667.0) ? YES : NO)
+#define isIphone6PScreen (XBScreenCondition(736.0) ? YES : NO)
+#define isIphoneXScreen (XBScreenCondition(812.0) ? YES : NO)
+#define isIphoneXScreen (XBScreenCondition(812.0) ? YES : NO)
+#define isIphoneXROrXSMAXScreen (XBScreenCondition(896.0) ? YES : NO)
 
-#define GWidthFactor (MIN(kScreenWidth, kScreenHeight)/kConsultWidth)
-#define GHeightFactor \
+#define XBWidthFactor (MIN(kScreenWidth, kScreenHeight)/XBConsultWidth)
+#define XBHeightFactor \
 ({\
-CGFloat result = kConsultHeight;\
+CGFloat result = XBConsultHeight;\
 if (isIphoneXScreen)\
 {\
-result = 667/kConsultHeight;\
+result = 667/XBConsultHeight;\
 }\
 else if (isIphoneXROrXSMAXScreen)\
 {\
-result = 736/kConsultHeight;\
+result = 736/XBConsultHeight;\
 }\
 else if (isIpadScreen)\
 {\
-result = 568/kConsultHeight;\
+result = 568/XBConsultHeight;\
 }\
 else\
 {\
-result = MAX(kScreenWidth, kScreenHeight)/kConsultHeight;\
+result = MAX(kScreenWidth, kScreenHeight)/XBConsultHeight;\
 }\
 result;\
 })
 
-#define GWidthFactorFun(x) (x * GWidthFactor)
-#define GHeightFactorFun(x) (x * GHeightFactor)
+#define XBWidthFactorFun(x) (x * XBWidthFactor)
+#define XBHeightFactorFun(x) (x * XBHeightFactor)
 
 
 //======================================== 复用标识 ========================================

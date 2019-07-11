@@ -52,7 +52,7 @@
         btn.frame = CGRectMake(0, 0, XBUniversalCell_float_cellHeightNor, XBUniversalCell_float_cellHeightNor);
         btn.img_selected = XBUniversalCell_Image_XBUniversalCell_delete;
         btn.img_normal = XBUniversalCell_Image_XBUniversalCell_edit;
-        btn.size_image = CGSizeMake(GWidthFactorFun(18), GHeightFactorFun(18));
+        btn.size_image = CGSizeMake(XBWidthFactorFun(18), XBWidthFactorFun(18));
         WEAK_SELF
         btn.bl_click = ^(XBButton *weakBtn) {
             if (weakSelf.bl_rightViewClick)

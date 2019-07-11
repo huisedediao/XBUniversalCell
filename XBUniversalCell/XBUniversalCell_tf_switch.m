@@ -65,7 +65,7 @@
             make.centerY.equalTo(self.contentView);
 //            make.bottom.lessThanOrEqualTo(self.contentView);
             make.leading.equalTo(self.contentView).offset(XBUniversalCell_float_leadingSpace);
-            make.width.mas_equalTo(ScreenWidth - 100);
+            make.width.mas_equalTo(kScreenWidth - 100);
         }];
         [self setTitleLabelTextColor];
     }

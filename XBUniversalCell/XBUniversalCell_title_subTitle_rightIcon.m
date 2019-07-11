@@ -38,7 +38,7 @@
             make.centerY.equalTo(self.contentView);
 //            make.bottom.lessThanOrEqualTo(self.contentView);
             make.leading.equalTo(self.contentView).offset(XBUniversalCell_float_leadingSpace);
-            make.width.mas_equalTo(ScreenWidth - 2 * XBUniversalCell_float_leadingSpace);
+            make.width.mas_equalTo(kScreenWidth - 2 * XBUniversalCell_float_leadingSpace);
         }];
         
         _lb_title = label;

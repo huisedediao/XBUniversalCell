@@ -64,7 +64,7 @@
     {
         return;
     }
-    self.tf_title.btn_rightView.size_image = CGSizeMake(GWidthFactorFun(22), GHeightFactorFun(22));
+    self.tf_title.btn_rightView.size_image = CGSizeMake(XBWidthFactorFun(22), XBWidthFactorFun(22));
     self.tf_title.btn_rightView.selected = YES;
     if (self.bl_textFieldBeginEdit)
     {
@@ -80,7 +80,7 @@
     {
         return;
     }
-    self.tf_title.btn_rightView.size_image = CGSizeMake(GWidthFactorFun(18), GHeightFactorFun(18));
+    self.tf_title.btn_rightView.size_image = CGSizeMake(XBWidthFactorFun(18), XBWidthFactorFun(18));
     self.tf_title.btn_rightView.selected = false;
     textField.layer.borderWidth = 0;
     if (self.bl_textFieldDidEndEdit)
@@ -123,7 +123,7 @@
             make.leading.equalTo(self.contentView);
             make.centerY.equalTo(self.contentView);
             make.height.mas_equalTo(XBUniversalCell_float_cellHeightNor);
-            make.width.mas_equalTo(ScreenWidth);
+            make.width.mas_equalTo(kScreenWidth);
         }];
         tf.font = XBUniversalCell_font_tf;
     }

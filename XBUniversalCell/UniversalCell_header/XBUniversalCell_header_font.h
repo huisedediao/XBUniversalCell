@@ -9,10 +9,10 @@
 #ifndef XBUniversalCell_header_font_h
 #define XBUniversalCell_header_font_h
 
-#define XBUniversalCell_font_title XB_Font_Text(GWidthFactorFun(15))
-#define XBUniversalCell_font_subTitle XB_Font_Text(GWidthFactorFun(15))
-#define XBUniversalCell_font_tf XB_Font_Text(GWidthFactorFun(15))
+#define XBUniversalCell_font_title XB_Font_Text(XBWidthFactorFun(15))
+#define XBUniversalCell_font_subTitle XB_Font_Text(XBWidthFactorFun(15))
+#define XBUniversalCell_font_tf XB_Font_Text(XBWidthFactorFun(15))
 ///抬头为顶部图片底部文字的cell的文字字体
-#define XBUniversalCell_font_iconTitleText XB_Font_Text(GWidthFactorFun(10))
+#define XBUniversalCell_font_iconTitleText XB_Font_Text(XBWidthFactorFun(10))
 
 #endif /* XBUniversalCell_header_font_h */
