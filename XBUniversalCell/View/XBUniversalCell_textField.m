@@ -22,6 +22,11 @@
     return self;
 }
 
+- (CGRect)rightViewRectForBounds:(CGRect)bounds
+{
+    return CGRectMake(kScreenWidth - XBUniversalCell_float_cellHeightNor, 0, XBUniversalCell_float_cellHeightNor, XBUniversalCell_float_cellHeightNor);
+}
+
 - (void)createSubviews
 {
     
